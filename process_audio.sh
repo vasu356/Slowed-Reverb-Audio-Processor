@@ -1,8 +1,11 @@
 #!/bin/bash
 
 # Hardcoded input and output directories
-input_directory="/mnt/c/Users/KIIT/Desktop/Slowed Youtube/Input Song"
-output_directory="/mnt/c/Users/KIIT/Desktop/Slowed Youtube/Slowed Reverb Song"
+#Please enter the input directory where the songs are stored that need to be converted to slowed reverb, and 
+#specify the output directory where the processed slowed reverb songs should be saved in below.
+
+input_directory=""
+output_directory=""
 
 # Process all MP3 files in the input directory
 for input_file in "$input_directory"/*.mp3; do
